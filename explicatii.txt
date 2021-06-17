@@ -1,0 +1,70 @@
+#Definire prin specificare
+###################################
+#identificator
+1 2 _abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+2 2 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
+#constanta intreaga
+1 3 1234567890
+3 3 1234567890
+#constanta reala
+3 4 .
+4 4 1234567890
+1 5 .
+5 5 1234567890
+4 6 e
+5 6 e
+6 7 1234567890  
+7 7 1234567890
+
+#constanta caracter
+1 8 '
+##escape sequence
+8 9 \
+9 10 abefnrtv\'"?
+
+8 11 toate minus astea {  \' }
+10 12 '
+11 12 '
+
+#constanta string
+
+1 13 "
+13 13 toate mai putin { ", \, NEWLINE }
+13 14 \
+14 13 toate
+13 15 "
+#comentariu singura linie
+1 16 / 
+16 17 /
+17 17 toate mai putin { NEWLINE }
+#comentariu multii linie
+1 18 /
+18 19 *
+
+19 19 toate mai putin { * }
+19 20 *
+20 19 toate mai putin { / } 
+20 21 /
+
+
+#Definire prin excludere
+###################################
+
+#Definire automata siruri specifice
+#operatori
+- -- -= ->
++ ++ += 
+& &&
+< <= << <<=
+> >= >> >>= 
+^ ^=
+| |=
+& &=
+% %=
+/ /=
+! != 
+=  ==
+~ 
+?
+#delimitatori
+()[]{}

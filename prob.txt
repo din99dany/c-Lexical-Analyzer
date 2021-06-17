@@ -1,0 +1,32 @@
+Cuvant cheie void
+Identificator main
+Delimitator (
+Delimitator )
+Delimitator {
+Cuvant cheie int
+Operator *
+Identificator a
+Operator =
+Constanta numerica 0
+Operator ;
+Cuvant cheie float
+Identificator b
+Operator =
+Constanta reala 23.2
+Operator ;
+Cuvant cheie float
+Identificator c
+Operator =
+Constanta reala 1e3
+Operator ;
+Operator *
+Delimitator (
+Identificator a
+Operator +
+Identificator b
+Delimitator )
+Cuvant cheie return
+Constanta numerica 0
+Operator ;
+Delimitator }
+Am ajuns la final !
